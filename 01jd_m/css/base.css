@@ -1,0 +1,52 @@
+/* 通用样式 */
+*,::before,::after{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    /*手机点击清除默认的高亮效果，改为透明transparent*/
+    -webkit-tap-highlight-color: transparent;
+    /* 盒子模型 */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*统一设置文字 移动端的默认字体是 sans-serif*/
+    font-family: "微软雅黑",sans-serif;
+}
+input{
+    border: none;
+    -webkit-appearance: none;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+/*设置一个类来设置浮动*/
+.f_l{
+    float:left;
+}
+.f_r{
+    float: right;
+}
+/*清除浮动*/
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: block;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+/* 边框的 通用样式 */
+.b_l{
+	border-left: 1px solid #eee;
+}
+.b_r{
+	border-right: 1px solid #eee;
+}
+.b_t{
+	border-top: 1px solid #eee;
+}
+.b_b{
+	border-bottom: 1px solid #eee;
+}

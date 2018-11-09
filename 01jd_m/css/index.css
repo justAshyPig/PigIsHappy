@@ -1,0 +1,279 @@
+/* 最外面的大盒子 */
+.jd_container{
+    width: 100%;
+    min-height: 800px;
+    background-color: #eee;
+}
+
+/* 顶部通栏 */
+.jd_header{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(201,21,35,0);
+    position: fixed;
+    z-index: 99;
+    padding-left: 65px;
+    padding-right: 70px;
+}
+.header_logo{
+    width: 60px;
+    height: 36px;
+    position: absolute;
+    top:2px;
+    left: 5px;
+    background: url("../images/sprites.png");
+    background-size: 200px 200px;
+    background-position: 0 -103px;
+}
+.header_icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    left: 70px;
+    background: url("../images/sprites.png");
+    background-size: 200px 200px;
+    background-position: -58px -109px;
+}
+.header_search{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 18px;
+    margin-top: 5px;
+    padding-left: 27px;
+}
+.header_login{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    color: #fff;
+    /* background-color: red; */
+    font-size: 17px;
+    line-height: 40px;
+}
+
+/* 通栏结束 */
+
+/* 轮播图开始 */
+.jd_banner{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.jd_banner .banner_images{
+    width: 1000%;
+    transform: translateX(-10%);
+}
+.jd_banner .banner_images li{
+    width: 10%;
+    float: left;
+}
+.jd_banner .banner_images li a{
+    width: 100%;
+    display: block;
+}
+.jd_banner .banner_images li a img{
+    width: 100%;
+    display: block;
+}
+
+    /* 轮播图index小圆点 */
+.jd_banner .banner_index{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -44px;
+}
+.jd_banner .banner_index li{
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: 5px;
+}
+.jd_banner .banner_index li.current{
+    background-color: #fff;
+}
+
+/* 轮播图结束 */
+
+/* 导航栏开始 */
+
+.jd_nav{
+    width: 100%;
+    background-color: #fff;
+}
+.jd_nav ul{
+    width: 100%;
+}
+.jd_nav ul li{
+    width: 25%;
+    float: left;
+    padding: 8px;
+}
+.jd_nav ul li a{
+    display: block;
+    width: 100%;
+}
+.jd_nav ul li a img{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.jd_nav ul li a p{
+    text-align: center;
+    color: gray;
+}
+
+/* 导航栏结束 */
+
+/* 广告主体开始 */
+
+/* 广告主体第一个盒子开始 */
+
+/* 第一个盒子顶部开始 */
+
+.jd_main{
+    width: 100%;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+.jd_main .main_content{
+    width: 100%;
+    background-color: #fff;
+    min-height: 150px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 1px gray;
+}
+.jd_main .main_content .content_top{
+    width: 100%;
+    height: 32px;
+}
+.jd_main .main_content:nth-child(1) .content_top span{
+    background: url("../images/seckill-icon.png");
+    background-size: 20px 25px;
+    float: left;
+    width: 20px;
+    height: 25px;
+    margin-top: 3.5px;
+    margin-left: 5px;
+}
+.jd_main .main_content:nth-child(1) .content_top p{
+    color: rgb(201, 21, 35);
+    float: left;
+    margin-left: 5px;
+    line-height: 32px;
+}
+.jd_main .main_content:nth-child(1) .content_top ul{
+    float: left;
+    height: 32px;
+    padding-top: 8.5px;
+    /* background-color: red; */
+}
+.jd_main .main_content:nth-child(1) .content_top ul li{
+    float: left;
+    background-color: #000;
+    height: 15px;
+    width: 15px;
+    color:#fff;
+    margin-left: 3px;
+    text-align: center;
+    line-height: 15px; 
+}
+.jd_main .main_content:nth-child(1) .content_top ul li:nth-child(3n){
+    background-color: transparent;
+    color: #000;
+}
+.jd_main .main_content:nth-child(1) .content_top a{
+    float: right;
+    color: gray;
+    margin-right: 5px;
+    line-height: 32px;
+}
+
+/* 广告主体第一个盒子头部结束 */
+
+/* 广告主体第一个盒子底部开始 */
+.jd_main .main_content:nth-child(1) .content_bottom{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li{
+    float: left;
+    width: 33.33333%;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li a{
+    display: block;
+    width: 100%;
+    border-right: 1px solid gray;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li:last-child a{
+    border-right: none;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li a img{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li p{
+    text-align: center;
+    font-size: 12px;
+    padding: 3px 0;
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li p:nth-child(2){
+    font-size: 15px;
+    color: rgb(201, 21, 35);
+}
+.jd_main .main_content:nth-child(1) .content_bottom ul li p:nth-child(3){
+    color: #000;
+    text-decoration: line-through;
+}
+
+/* 广告主体第一个盒子底部结束 */
+
+/* 广告主体第一个盒子结束 */
+
+/* 广告主体其余相似盒子开始 */
+
+.jd_main .main_content:nth-child(n+2) .content_top span{
+    color: rgb(201, 21, 35);
+    font-size: 17px;
+    line-height: 32px;
+    margin-left: 15px;
+    border-left: 5px solid rgb(201, 21, 35);
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul{
+    width: 100%;
+    border-top: 1px solid gray;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li:nth-child(1){
+    float: left;
+    width: 50%;
+    border-right: 1px solid gray;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li:nth-child(2){
+    float: right;
+    width: 50%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li:nth-child(3){
+    float: right;
+    width: 50%;
+    border-top: 1px solid gray;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li a{
+    width: 100%;
+    display: block;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li a img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+}
