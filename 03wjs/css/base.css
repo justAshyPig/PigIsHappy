@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'wjs font';
+  
+    src: url('../fonts/MiFie-Web-Font.eot.eot');
+    src: url('../fonts/MiFie-Web-Font.eot?#iefix') format('embedded-opentype'),
+        /* url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), */
+        url('../fonts/MiFie-Web-Font.woff') format('woff'), 
+        url('../fonts/MiFie-Web-Font.ttf') format('truetype'),
+        url('../fonts/MiFie-Web-Font.svg#MiFie-Web-Font') format('svg');
+  }
+  .wjs_font {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'wjs font';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.wjs_phone::before{
+    content: "\e908";
+}
+.wjs_tel::before{
+    content: "\e909";
+}
+.wjs_logo::before{
+    content: "\e920";
+}
+.wjs_word::before{
+    content: "\e93e";
+}
+.wjs_E903::before{
+    content: "\e903";
+}
+.wjs_E906::before{
+    content: "\e906";
+}
+.wjs_E905::before{
+    content: "\e905";
+}
+.wjs_E907::before{
+    content: "\e907";
+}
+.wjs_E901::before{
+    content: "\e901";
+}
+.wjs_E900::before{
+    content: "\e900";
+}
+.wjs_E904::before{
+    content: "\e904";
+}
+.wjs_E902::before{
+    content: "\e902";
+}
+.wjs_E906::before{
+    content: "\e906";
+}
+.wjs_E908::before{
+    content: "\e908";
+}
+.wjs_new01::before{
+    content: "\e90e";
+}
+.wjs_new02::before{
+    content: "\e90f";
+}
+.wjs_new03::before{
+    content: "\e910";
+}
+.wjs_new04::before{
+    content: "\e911";
+}
+.wjs_partner01::before{
+    content:"\e946";
+}
+.wjs_partner02::before{
+    content: "\e92f";
+}
+.wjs_partner03::before{
+    content: "\e92e";
+}
+.wjs_partner04::before{
+    content: "\e92a";
+}
+.wjs_partner05::before{
+    content: "\e929";
+}
+.wjs_partner06::before{
+    content: "\e931";
+}
+.wjs_partner07::before{
+    content: "\e92c";
+}
+.wjs_partner08::before{
+    content: "\e92b";
+}
+.wjs_partner09::before{
+    content: "\e92d";
+}
+.wjs_E915::before{
+  content: '\e915';
+}
+
+.wjs_navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+  }
+  .wjs_navbar-default .navbar-brand {
+    color: #777;
+  }
+  .wjs_navbar-default .navbar-brand:hover,
+  .wjs_navbar-default .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+  }
+  .wjs_navbar-default .navbar-text {
+    color: #777;
+  }
+  .wjs_navbar-default .navbar-nav > li > a {
+    color: #777;
+  }
+  .wjs_navbar-default .navbar-nav > li > a:hover,
+  .wjs_navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .wjs_navbar-default .navbar-nav > .active > a,
+  .wjs_navbar-default .navbar-nav > .active > a:hover,
+  .wjs_navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .wjs_navbar-default .navbar-nav > .disabled > a,
+  .wjs_navbar-default .navbar-nav > .disabled > a:hover,
+  .wjs_navbar-default .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+  .wjs_navbar-default .navbar-toggle {
+    border-color: #ddd;
+  }
+  .wjs_navbar-default .navbar-toggle:hover,
+  .wjs_navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+  }
+  .wjs_navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+  }
+  .wjs_navbar-default .navbar-collapse,
+  .wjs_navbar-default .navbar-form {
+    border-color: #e7e7e7;
+  }
+  .wjs_navbar-default .navbar-nav > .open > a,
+  .wjs_navbar-default .navbar-nav > .open > a:hover,
+  .wjs_navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  @media (max-width: 767px) {
+    .wjs_navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: #777;
+    }
+    .wjs_navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .wjs_navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #333;
+      background-color: transparent;
+    }
+    .wjs_navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .wjs_navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .wjs_navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #555;
+      background-color: #e7e7e7;
+    }
+    .wjs_navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+    .wjs_navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .wjs_navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+      color: #ccc;
+      background-color: transparent;
+    }
+  }
+  .wjs_navbar-default .navbar-link {
+    color: #777;
+  }
+  .wjs_navbar-default .navbar-link:hover {
+    color: #333;
+  }
+  .wjs_navbar-default .btn-link {
+    color: #777;
+  }
+  .wjs_navbar-default .btn-link:hover,
+  .wjs_navbar-default .btn-link:focus {
+    color: #333;
+  }
+  .wjs_navbar-default .btn-link[disabled]:hover,
+  fieldset[disabled] .wjs_navbar-default .btn-link:hover,
+  .wjs_navbar-default .btn-link[disabled]:focus,
+  fieldset[disabled] .wjs_navbar-default .btn-link:focus {
+    color: #ccc;
+  }
+
+
+/* 修改nav-tabs文件，定义为自己的css */
+.wjs_tabs > li {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.wjs_tabs{
+  position: relative;
+}
+.wjs_tabs .wjs_line{
+  border-left: 2px dashed gray;
+  height: 80%;
+  position: absolute;
+  top: 22px;
+  left: 35px;
+}
+.wjs_tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ccc;
+  font-size: 40px;
+  text-align: center;
+  line-height: 70px;
+  padding: 0;
+}
+.wjs_tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+.wjs_tabs > li.active > a,
+.wjs_tabs > li.active > a:hover,
+.wjs_tabs > li.active > a:focus {
+  color: lightgray;
+  cursor: default;
+  background-color: rgb(238, 54, 69);
+  border: 1px solid #ddd;
+  /* border-bottom-color: transparent; */
+}

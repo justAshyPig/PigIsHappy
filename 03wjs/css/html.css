@@ -1,0 +1,444 @@
+/* 顶部通栏开始 */
+.header .container-fluid .row div {
+    height: 40px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.header .container-fluid .row div a {
+    text-decoration: none;
+    color: gray;
+    line-height: 40px;
+}
+
+.header .container-fluid .row div:nth-child(n+2) a {
+    margin-right: 15px;
+}
+
+.header .container-fluid .row div:nth-child(4) input {
+    margin-right: 15px;
+}
+
+.header .container-fluid .row div:first-child img {
+    display: none;
+}
+
+.header .container-fluid .row div:first-child:hover img {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    z-index: 99;
+}
+
+/* 顶部通栏结束 */
+
+
+/* 导航栏开始 */
+.wjs_navbar-default {
+    height: 86px;
+    line-height: 86px;
+    margin-bottom: 0;
+}
+
+.wjs_navbar-default .container-fluid .navbar-header .navbar-brand {
+    height: 86px;
+    line-height: 56px;
+}
+
+.wjs_navbar-default .navbar-nav li a {
+    height: 86px;
+    line-height: 66px;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0 3px;
+}
+
+.wjs_navbar-default .navbar-nav li a:hover,
+.wjs_navbar-default .navbar-nav li a:focus {
+    border-bottom: 3px solid red;
+}
+
+.navbar-brand span:nth-child(1) {
+    font-size: 50px;
+    color: red;
+}
+
+.navbar-brand span:nth-child(2) {
+    font-size: 50px;
+    color: black;
+}
+
+.navbar-nav li:last-child span {
+    font-size: 25px;
+}
+
+.navbar-header {
+    padding-left: 40px;
+}
+
+/* 导航栏结束 */
+
+
+/* 轮播图开始 */
+.carousel-inner .item .bigScreen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 410px;
+}
+
+.carousel-inner .item:nth-child(1) .bigScreen {
+    background-image: url('../images/slide_01_2000x410.jpg');
+}
+
+.carousel-inner .item:nth-child(2) .bigScreen {
+    background-image: url('../images/slide_02_2000x410.jpg');
+}
+
+.carousel-inner .item:nth-child(3) .bigScreen {
+    background-image: url('../images/slide_03_2000x410.jpg');
+}
+
+.carousel-inner .item:nth-child(4) .bigScreen {
+    background-image: url('../images/slide_04_2000x410.jpg');
+}
+
+.carousel-inner .item .smallScreen {
+    width: 100%;
+    display: block;
+}
+
+.carousel-inner .item .smallScreen img {
+    width: 100%;
+    display: block;
+}
+
+/* 轮播图结束 */
+
+/* 公告信息开始 */
+
+.wjs_contain {
+    border-bottom: 1px dashed gray;
+}
+
+.wjs_contain .containe .row {
+    margin: 0 5%;
+}
+
+.wjs_contain .container .row div:nth-child(1),
+.wjs_contain .container .row div:nth-child(2) {
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid lightgray;
+}
+
+.wjs_contain .container .row div:nth-child(1) a,
+.wjs_contain .container .row div:nth-child(2) a {
+    color: gray;
+}
+
+.wjs_contain .container .row div:nth-child(2) span {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.wjs_contain .container .row div:nth-child(n+3) {
+    height: 266px;
+    padding-top: 48px;
+}
+
+.wjs_contain .container .row div:nth-child(n+3) span {
+    font-size: 60px;
+    margin-left: 60px;
+    transform-origin: center;
+    transform-style: preserve-3d;   
+}
+.wjs_contain .container .row div:nth-child(3) span:hover{
+    animation: gun 1s;
+}
+@keyframes gun{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+.wjs_contain .container .row div:nth-child(4) span:hover{
+    transform-origin: center;
+    transform-style: preserve-3d;  
+    transform: rotateY(360deg);
+    transition: transform 1s;
+}
+.wjs_contain .container .row div:nth-child(5) span:hover{
+    transform-origin: center;
+    transform-style: preserve-3d;  
+    transform: rotateZ(360deg);
+    transition: transform 1s;
+}
+.wjs_contain .container .row div:nth-child(6) span:hover{
+    transform-origin: center;
+    transform-style: preserve-3d;  
+    transform: rotateZ(360deg) rotateX(360deg);
+    transition: transform 1s;
+}
+
+.wjs_contain .container .row div:nth-child(n+3) .media {
+    height: 206px;
+}
+
+.wjs_contain .container .row div:nth-child(n+3) .media .media-body,
+.wjs_contain .container .row div:nth-child(n+3) .media .media-left {
+    border-bottom: none;
+}
+
+.wjs_contain .container .row div:nth-child(n+3) .media .media-body h4 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.wjs_contain .container .row div:nth-child(7) {
+    border-left: 1px solid lightgray;
+}
+
+.wjs_contain .container .row div:nth-child(n+7) h3 {
+    color: rgb(201, 21, 35);
+    font-size: 24px;
+}
+
+/* 广告信息结束 */
+
+/* 推荐信息开始 */
+.wjs_recommend {
+    margin-top: 10px;
+}
+
+.wjs_recommend ul li.active a,
+.wjs_recommend ul li.active a:focus {
+    background-color: skyblue;
+    border-bottom: 3px solid red;
+}
+
+.recommend {
+    display: block;
+    background-color: rgb(201, 21, 35);
+    box-shadow: 1px 1px 1px 1px gray;
+    transition: all 0.5s;
+}
+
+#profile .recommend {
+    background-color: rgba(0, 140, 255, 0.685);
+}
+
+#settings .recommend {
+    background-color: rgba(0, 140, 255, 0.685);
+}
+
+.recommend:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+
+.recommend span {
+    font-size: 40px;
+    float: left;
+    color: #fff;
+}
+
+.recommend_left {
+    min-height: 150px;
+    overflow: hidden;
+}
+
+.recommend_left div:nth-child(2) p {
+    color: #fff;
+    text-align: left;
+}
+
+.recommend_left div:nth-child(3) p {
+    color: #fff;
+    text-align: right;
+}
+
+.recommend_left h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.recommend_right {
+    float: right;
+    min-height: 150px;
+    width: 108px;
+    border-left: 1px dashed #fff;
+    padding-top: 20px;
+    position: relative;
+}
+
+.recommend_right p {
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tab-content .container-fluid .row div {
+    padding-top: 10px;
+}
+
+.recommend_right p::after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: -10px;
+    left: -10px;
+    box-shadow: inset 0 -1px gray;
+}
+
+.recommend_right p::before {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    bottom: -10px;
+    left: -10px;
+    box-shadow: inset 0 1px gray;
+}
+
+/* 推荐信息结束 */
+
+/* 新闻页开始 */
+.news{
+    margin: 40px 0;
+}
+.news h3 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.news h3::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid gray;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .wjs_tabs li {
+        width: 25%;
+    }
+}
+
+.new_content ol {
+
+    padding-top: 30px;
+}
+
+.new_content ol li {
+    padding: 10px 0;
+}
+
+.new_content ol li a {
+    color: gray;
+    font-size: 16px;
+}
+
+.new_content ol li a:hover {
+    color: #0094ff;
+}
+
+/* 新闻页结束 */
+
+/* 页脚开始 */
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer .row{
+    padding-top: 20px;
+}
+.footer .row div ul{
+    list-style: none;
+}
+.footer .row div:nth-child(1) ul li:nth-child(1) span{
+    font-size: 30px;
+}
+.footer .row div:nth-child(1) ul li:nth-child(2){
+    border: 1px solid #fff;
+}
+.footer .row div:nth-child(1) ul li:nth-child(2) h4{
+    font-size: 25px;
+    text-align: center;
+    margin:0;
+}
+.footer .row div:nth-child(1) ul li:nth-child(3) p{
+    margin-top: 15px;
+}
+.footer .row div:nth-child(1) ul li:nth-child(4) a{
+    color: #fff;
+    margin-left: 20px;
+}
+.footer .row div:nth-child(n+2) {
+    padding: 0 5px 0;
+}
+.footer .row div:nth-child(n+2) ul {
+    padding: 0;
+}
+.footer .row div:nth-child(n+2) ul li:nth-child(1){
+    font-size: 20px;
+}
+.footer .row div:nth-child(n+2) ul li:nth-child(n+2){
+    font-size: 12px;
+    margin-top: 10px;
+}
+.footer .row div:nth-child(5) ul li:nth-child(n+2){
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-left: 5px;
+}
+.footer .row div:nth-child(5) ul li:nth-child(n+2) a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 60px;
+    background-color: #ccc;
+    border-radius: 8px;
+}
+.footer .row div:nth-child(5) ul li:nth-child(n+2) a span{
+    display: block;
+    text-align: center;
+    line-height: 70px;
+    height: 100%;
+    color: #585453;
+}
+.footer .row div:nth-child(5) ul li:nth-child(n+2) a span:hover{
+    color: rgb(201, 21, 35);
+}
+@media screen and (max-width:992px){
+    .footer .row div:nth-child(1) ul li h4:nth-child(1){
+        border-bottom: 1px solid gray;
+    }
+}
+
+/* 页脚结束 */
